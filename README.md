@@ -8,6 +8,11 @@
 - 適用：Windows 上的小狼毫（需包含 librime-lua）
 - 設計原則：**fail-open**。資料檔缺失、壞行或規則寫錯時，一律維持原本候選順序，不吞鍵、不讓候選消失。
 
+
+<p align="center">
+<img src="https://github.com/yuOpghH/Rime-lua-Reorde/blob/main/%E5%B1%95%E7%A4%BA%E5%9C%96%E7%89%87/2026-a.jpg"  style="width:500px;"/><br>
+<img src="https://github.com/yuOpghH/Rime-lua-Reorde/blob/main/%E5%B1%95%E7%A4%BA%E5%9C%96%E7%89%87/2026-b.jpg"  style="width:500px;"/>
+</p>
 ---
 
 ## 目錄
