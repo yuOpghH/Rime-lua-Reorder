@@ -1,9 +1,12 @@
 # Rime 候選調序外掛（rime-reorder）1.4.24
 
+聲明：本應用通過AI許願式編程而成，AI+人工校驗、readme由AI+人工潤色。
+
 給小狼毫（Weasel）用的候選排序外掛：用一個外掛工作台允許一鍵拖動候選順序、造詞、刪詞。
 
 不必改詞典、不必改 `default.yaml`、不必動輸入法服務。
 
+---
 - 版本：**1.4.24**
 - 適用：Windows 上的小狼毫（需包含 librime-lua）
 - 設計原則：**fail-open**。資料檔缺失、壞行或規則寫錯時，一律維持原本候選順序，不吞鍵、不讓候選消失。
@@ -13,6 +16,7 @@
 <img src="https://github.com/yuOpghH/Rime-lua-Reorde/blob/main/%E5%B1%95%E7%A4%BA%E5%9C%96%E7%89%87/2026-a.jpg"  style="width:500px;"/><br>
 <img src="https://github.com/yuOpghH/Rime-lua-Reorde/blob/main/%E5%B1%95%E7%A4%BA%E5%9C%96%E7%89%87/2026-b.jpg"  style="width:500px;"/>
 </p>
+
 ---
 
 ## 目錄
@@ -535,5 +539,4 @@ Get-FileHash .\lua\reorder.lua, .\reorder\RimeReorder.exe, .\install.ps1 -Algori
 - 感謝粵語與多方案輸入法方案的作者與使用者，提供了大量實際輸入情境與回饋。
 - 感謝所有回報問題、協助測試與提供建議的使用者。
 
-本外掛只是候選排序的輔助工具；輸入法的核心體驗仍來自 Rime 與你所使用的方案。若覺得有幫助，
-歡迎把使用情境與問題回饋給專案。
+本外掛只是候選排序的輔助工具；輸入法的核心體驗仍來自 Rime 與你所使用的方案。
